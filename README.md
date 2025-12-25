@@ -36,3 +36,8 @@ Since this is a Code Editor plugin, you need to copy the source files into your 
     -   **Source Databank**: Choose the databank containing the strategies you want to process.
     -   **Target Databank**: Choose the databank where you want the cleaned strategies to be saved.
 5.  Run the task.
+
+## Support
+
+If you find this plugin useful, you can support its development:
+[Donate via Stripe](https://buy.stripe.com/5kQ14m8c7d477BM5dvf7i00)
