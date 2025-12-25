@@ -1,0 +1,28 @@
+<div>
+    <fieldset class="sq-fieldset sq-fieldset-select-property">
+        <legend tsq>Databanks</legend>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="filtering-input">
+                    <label class="sqn-label" tsq>Source</label>
+                    <div class="sqn-input sqn-select">
+                        <span>{{config.databankSource}}</span>
+                        <select ng-model="config.databankSource" ng-options="item.name as item.name for item in config.availableDatabanks"  onFocus="sqnSelectFocus(this)" onBlur="sqnSelectBlur(this)" ng-change="settingsChanged()"></select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="filtering-input">
+                    <label class="sqn-label" tsq>Target</label>
+                    <div class="sqn-input sqn-select">
+                        <span>{{config.databankTarget}}</span>
+                        <select ng-model="config.databankTarget" ng-options="item.name as item.name for item in config.availableDatabanks" onFocus="sqnSelectFocus(this)" onBlur="sqnSelectBlur(this)" ng-change="settingsChanged()"></select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</div>

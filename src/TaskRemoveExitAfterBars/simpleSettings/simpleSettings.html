@@ -1,0 +1,16 @@
+<div class="pad-10">
+    <div class="alert alert-info">
+        <i class="fa fa-info-circle"></i> 
+        {{'This task iterates through all strategies in the Source Databank, removes the "Exit After Bars" rule if present, and saves the modified strategy to the Target Databank.' | tsq}}
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-6">
+            <strong>{{'Source Databank:' | tsq}}</strong> {{config.databanks.Source}}
+        </div>
+        <div class="col-xs-6">
+            <strong>{{'Target Databank:' | tsq}}</strong> {{config.databanks.Target}}
+        </div>
+    </div>
+    <h2>Simple Test</h2>
+</div>

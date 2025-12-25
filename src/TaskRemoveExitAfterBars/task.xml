@@ -1,0 +1,10 @@
+<Task>
+	<Settings>
+		<RemoveExitAfterBars>
+		</RemoveExitAfterBars>
+        <Databanks>
+          <Databank name="Source" value="Results" />
+          <Databank name="Target" value="Target" />
+        </Databanks>
+	</Settings>
+</Task>
