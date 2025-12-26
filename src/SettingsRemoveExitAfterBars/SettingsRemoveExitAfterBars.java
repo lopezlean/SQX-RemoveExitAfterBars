@@ -21,11 +21,11 @@ import com.strategyquant.tradinglib.taskImpl.ISQTask;
 import net.xeoh.plugins.base.annotations.PluginImplementation;
 import net.xeoh.plugins.base.annotations.meta.Author;
 
-@Author(name = "User")
+@Author(name = "Leandro Emanuel Lopez")
 @Name(name = "Remove Exit After Bars")
 @Category(name = "Settings")
-@License(text = "")
-@ShortDesc(text = "")
+@License(text = "MIT")
+@ShortDesc(text = "Removes 'Exit After Bars' rules from strategies.")
 @PluginImplementation
 public class SettingsRemoveExitAfterBars implements ISettingTabPlugin {
 
