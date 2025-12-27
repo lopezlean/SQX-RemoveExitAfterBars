@@ -2,8 +2,8 @@
 REM This script copies the source code to the StrategyQuant user folder on Windows.
 REM Adjust the SQ_USER_DIR variable if your installation is different.
 
-REM Default typical path on Windows (C:\StrategyQuantX)
-SET "SQ_USER_DIR=C:\StrategyQuantX\user\extend\Plugins"
+REM Default typical path on Windows (C:\StrategyQuantX143)
+SET "SQ_USER_DIR=C:\StrategyQuantX143\user\extend\Plugins"
 
 IF NOT EXIST "%SQ_USER_DIR%" (
   echo Error: Destination directory not found: %SQ_USER_DIR%
